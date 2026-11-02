@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="shinobiextras"
+version="1.0.0"
+displayName="Narutoto - Shinobi Extras"
+description='''
+Addon para o Narutoto: 9 jutsus novos (Kirigakure, Nikudan Sensha, Gatsuuga, Shikotsumyaku, Kikaichu, Bakuha, Samehada, Chidori Nagashi, Shunshin) e 5 shinobis (Zabuza, Kisame, Deidara, Kimimaro e Rock Lee).
+'''
+
+[[dependencies.shinobiextras]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.shinobiextras]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.shinobiextras]]
+    modId="narutoto"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
